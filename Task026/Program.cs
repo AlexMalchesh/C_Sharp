@@ -1,5 +1,32 @@
 ﻿// Возведите число А в натуральную степень B используя цикл
 
+// int[] GetNums()
+// {
+//     int[] arr = new int[2];
+//     for (int i = 0; i < 2; i++)
+//     {
+//         Console.WriteLine("Введите целое число: ");
+//         arr[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     return arr;
+// }
+
+// int[] arr = GetNums();
+
+// int result = 1;
+// if (arr[1] == 0)
+// {
+//     result = 1;
+// }
+// if (arr[1] > 0)
+// {
+//     for (int i = 1; i <= arr[1]; i++)
+//     {
+//         result = result * arr[0];
+//     }
+// }
+// Console.WriteLine($"Число {arr[0]} в степени {arr[1]} = {result}");
+
 int GetA()
 {
     Console.WriteLine("Введите целое число: ");
