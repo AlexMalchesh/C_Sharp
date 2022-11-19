@@ -36,7 +36,7 @@ void PrintArray(int[,] array)
 string GetUserNumber()
 {
     Console.WriteLine("Введите позицию элемента в двумерном массиве: ");
-    return Console.ReadLine();
+    return Console.ReadLine()!;
 }
 
 bool CorrectUserNum(string num)
